@@ -4,3 +4,8 @@ channels:
   - defaults
 dependencies:
   - synther
+  - pip
+  - numpy
+  - matplotlib
+  - pip:
+    - .
