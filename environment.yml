@@ -1,0 +1,6 @@
+name: synther-examples
+channels:
+  - ptrick
+  - defaults
+dependencies:
+  - synther
