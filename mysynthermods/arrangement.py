@@ -1,5 +1,7 @@
 import math
 
+# TODO: Formally document
+
 def key_to_freq(key):
   _ktf_cnst = math.pow(2.0, 1/12.0)
   return math.pow(_ktf_cnst, key - 49.0) * 440.0

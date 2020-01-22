@@ -6,6 +6,10 @@ The main repository for synther is located [here](https://github.com/ptrick/synt
 
 This repository is for sharing some music production techniques using Synther.
 
+## References
+
+Check out the [docs](https://ptrick.github.io/synther-ref/).
+
 ## Getting Started (In Browser)
 
 Click on the "Launch binder" button at the top.
@@ -27,3 +31,12 @@ jupyter lab
 ```
 
 Happy hacking!
+
+## The 'mysynthermods' library
+
+Included with the examples is a python library that includes many helpful things as a starting point. Upon enviornment creation, this library is automatically installed with `pip install .` (per Binder requirements).
+
+*Modules:*
+
+* `arrangement` - A module useful for inputting musical pitches and timings according to music theory
+* `displaywave` - A module useful for examining waveforms in charts

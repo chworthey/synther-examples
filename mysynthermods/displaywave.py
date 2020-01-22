@@ -2,6 +2,8 @@ import synther
 import numpy
 from matplotlib import pyplot as plt
 
+# TODO: Formally document
+
 def display_partial_file(filename, start_ms, length_ms):
   buf = synther.gen_buffer()
   synther.sample_file(buf, filename, 0, start_ms, length_ms)
